@@ -15,7 +15,7 @@ Proyecto que muestra en una interfaz grafica desarrolada en python hecha con PyQ
 La interfaz muestra una matriz de pesos, la cual nos indica 2 cosas: Relaciones entre nodos y pesos para pasar de un nodo hacia otro el cual representa un "costo".
 
 
-A partir de la matriz de pesos, esta se lee y si en una posicion nos muestra un valor diferente a cero, significa que un nodo se conecta con otro nodo y asi sacamos un Matriz de adyacencia la cual muestra solo las relaciones entre los nodos.
+A partir de la matriz de pesos, esta se lee y si en una posicion nos muestra un valor diferente a cero, significa que un nodo se conecta con otro nodo y asi sacamos una Matriz de adyacencia la cual muestra solo las relaciones entre los nodos.
 
 
 Ya con esta matriz de adyacencia se empieza a armar las matrices de trayectorias la cual indica el numero de trayectorias/caminos k (k = 2 o k = 3) que hay entre un nodo y otro.
