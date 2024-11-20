@@ -1,13 +1,25 @@
-GRAFOS POR ALEXANDER NARVÁEZ
+-Estruturas de Datos 2
+
+-Alejandro Arango Mejía
+
+-Python 3.12.4
+
+-Qt Creator 14.0.2 (Enterprise)
 
 
-El presente es un proyecto que realicé como código base para mis estudiantes de Estructuras de datos 2.
-Consite en una interfaz gráfica desarrolalda con PyQt, que es una librería de C++ para desarrollar UIs en Python.
-El programa permite generar matrices de pesos y a partir de ellas contruir un grafo.
-La distribución de los vértices se hace aleatoria, pero el programa está disñedo para que se puedan arrastrar los nodos junto con us aristas.
-También se puede cliquear sobre un arco el cual aparecerá resaltado en color rojo junto con los nodos que van conectados por esa arista.
-![image](https://github.com/user-attachments/assets/c4b02bcf-e322-4fde-9e2d-9c460233369c)
+GRAFOS A PARTIR DE MATRIZ DE PESOS
 
-La idea es que puedan usar este código para que lo personalicen de modo que pueda extender las capacidades del mismo, por ejemplo añadir la funcionalidad de que el programa encuentre las k trayectorias aplicando el algoritmo de Dijkstra o del Bellman - Ford.
+Proyecto que muestra en una interfaz grafica desarrolada en python hecha con PyQt gracias a la App de Qt Creator.
 
-P.D., importantísimo: recuerda darle clic en la estrellita antes de descargar( o te Hackeo el feisbuk ;) )
+
+La interfaz muestra una matriz de pesos, la cual nos indica 2 cosas: Relaciones entre nodos y pesos para pasar de un nodo hacia otro el cual representa un "costo".
+
+
+A partir de la matriz de pesos, esta se lee y si en una posicion nos muestra un valor diferente a cero, significa que un nodo se conecta con otro nodo y asi sacamos un Matriz de adyacencia la cual muestra solo las relaciones entre los nodos.
+
+
+Ya con esta matriz de adyacencia se empieza a armar las matrices de trayectorias la cual indica el numero de trayectorias/caminos k (k = 2 o k = 3) que hay entre un nodo y otro.
+
+
+![image](https://github.com/user-attachments/assets/dcca7c19-a916-4120-aa10-f285593a2c0a)
+
